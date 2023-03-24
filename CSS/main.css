@@ -32,5 +32,19 @@ body{
     box-shadow: 5px 5px 15px grey;
 }
 #btn{
+    cursor: pointer;
     padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    transition: 0.5s ease;
+    box-shadow: 2px 2px 10px gray;
+}
+#btn:hover{
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+
+}
+#btn:active{
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.2);
+
 }
